@@ -41,6 +41,25 @@ Ensure you have the following installed before proceeding:
    jupyter notebook
    ```
 
+## Kernel Management
+### Removing the Kernel
+If you want to remove the kernel, use the following commands:
+```sh
+jupyter notebook stop
+jupyter kernelspec list
+jupyter kernelspec remove tfodj
+```
+
+### Fixing Jupyter Notebook Kernel Connection Issues
+If you are facing kernel loading issues and the kernel is not connecting, use the following commands:
+```sh
+# When you get Kernel not connecting Error and it keeps disconnecting repeatedly
+pip uninstall typing_extensions -y
+pip install typing_extensions==4.7.1
+pip install --upgrade ipykernel ipython jupyter
+python -m ipykernel install --user --name=tfodj
+```
+
 ## Next Steps
 - Navigate to the Jupyter Notebook interface and follow the provided scripts to train your model.
 - Ensure that all dependencies are installed properly before running the training scripts.
