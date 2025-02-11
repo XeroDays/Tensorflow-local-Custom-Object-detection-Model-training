@@ -1,0 +1,38 @@
+<annotation>
+	<folder>train</folder>
+	<filename>train (104).jpeg</filename>
+	<path>C:\Users\Wizard\Desktop\ClenaStart\TFODCourse\Tensorflow\workspace\images\train\train (104).jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>3024</width>
+		<height>4032</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>PriceTagSmall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1096</xmin>
+			<ymin>1272</ymin>
+			<xmax>1540</xmax>
+			<ymax>1585</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>PriceTagSmall</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2446</xmin>
+			<ymin>3835</ymin>
+			<xmax>2759</xmax>
+			<ymax>4022</ymax>
+		</bndbox>
+	</object>
+</annotation>

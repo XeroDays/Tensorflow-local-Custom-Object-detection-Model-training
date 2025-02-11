@@ -1,0 +1,31 @@
+First install Python Python 3.10.7
+
+pip install jupyter
+
+
+
+
+python -m venv tfod
+.\tfod\Scripts\activate 
+
+deactivate
+
+
+pip install ipykernel
+
+pip install -r requirements.txt
+python -m ipykernel install --user --name=tfodj
+
+jupyter notebook
+
+jupyter notebook stop
+jupyter kernelspec list
+jupyter kernelspec remove tfodj
+
+
+
+# When you get Kernal not connecting Error and again again disconnecting 
+pip uninstall typing_extensions -y
+pip install typing_extensions==4.7.1
+pip install --upgrade ipykernel ipython jupyter
+python -m ipykernel install --user --name=tfodj
